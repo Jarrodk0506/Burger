@@ -5,7 +5,7 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-    <p>{{burger_name}} <button type="submit" id="devour" >Devour!</button> </p>
+    <p>{{burger_name}} <button type="submit" class="devour" id="{{id}}">Devour!</button> </p>
     {{/unless}}
   {{/each}}
 </ul>
