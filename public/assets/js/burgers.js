@@ -25,11 +25,10 @@
   });
 
 
-  ///////NEEDS WORK/////////////
+
   $(".devour").on("click", function(event) {
     var id = this.id;
      
-  console.log(this.id);
 
   var newDevouredState = {
     devoured: true
