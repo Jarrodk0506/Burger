@@ -9,6 +9,9 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+//Heroku Name:: shrouded-spire-65642
+
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {
